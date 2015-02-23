@@ -1,7 +1,9 @@
 # jquery-slider
-Simple jQuery image slider
+Very simple jQuery image slider. Enjoy
 
 #HTML
+This is the HTML markup:
+
 ```
 <head>
     <link rel="stylesheet" type="text/css" href="css/js-slider.css" /> <!-- Include CSS -->
@@ -35,9 +37,12 @@ Simple jQuery image slider
     
     </div> <!-- /slider -->
 ```
+#CSS
+You have to set ".slider" width and height in the CSS.
 
 #Javascript
+Call ".slider()" method:
+    
 ```
-<script type="text/javascript">
-    $("#mySlider").slider();
-</script>
+$("#mySlider").slider();
+```
