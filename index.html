@@ -3,16 +3,18 @@
 <html>
 
     <head>
-        <title>JS Slider</title>
-        <link rel="stylesheet" type="text/css" href="css/js-slider.css" />
-        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/js-slider.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/js-slider.css" /> <!-- Include CSS -->
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script> <!-- Include jQuery -->
+        <script type="text/javascript" src="js/js-slider.js"></script> <!-- Include jQuery slider -->
     </head>
     
-    <body>
-        <div id="slider" class="slider">
-            <div class="slides">
-                <div class="slide">
+    <body> 
+   
+        <div id="mySlider" class="slider"> <!-- Outer div with "slider" class -->
+        
+            <div class="slides"> <!-- Slides wrapper with "slides" class -->
+        
+                <div class="slide"> <!-- Slide elements with "slide" class and img inside -->
                     <img alt="" src="" />
                 </div>
                 <div class="slide">
@@ -27,11 +29,15 @@
                 <div class="slide">
                     <img alt="" src="" />
                 </div>
-            </div>
-        </div>
+                
+            </div> <!-- /slides -->
+        
+        </div> <!-- /slider -->
+        
         <script type="text/javascript">
-            $("#slider").slider();
+            $("#mySlider").slider();
         </script>
+        
     </body>
 
 </html>

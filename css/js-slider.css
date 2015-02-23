@@ -1,10 +1,6 @@
-#slider {
-    width: 60%;
-    margin: auto;
-    height: 800px;
-}
-
 .slider {
+/*    width: ;*/
+/*    height: ;*/
     position: relative;
     padding: 0.5em 3%;
     border-radius: 3px;
