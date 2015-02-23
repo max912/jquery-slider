@@ -1,0 +1,85 @@
+#slider {
+    width: 60%;
+    margin: auto;
+    height: 800px;
+}
+
+.slider {
+    position: relative;
+    padding: 0.5em 3%;
+    border-radius: 3px;
+    background: rgba(30, 30, 30, 1);
+}
+
+.slides {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-transition: opacity 0.5s ease-in;
+    -moz-transition: opacity 0.5s ease-in;
+    -o-transition: opacity 0.5s ease-in;
+    transition: opacity 0.5s ease-in;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.slide-button {
+    position: absolute;
+    display: block;
+    width: 3%;
+    height: 10%;
+    top: 45%;
+    cursor: pointer;
+}
+
+.slide-left {
+    left: 0;
+}
+
+.arrow-left {
+	border-top: 1em solid transparent;
+	border-bottom: 1em solid transparent; 
+	border-right: 1em solid rgba(255, 255, 255, 0.6);
+}
+
+.arrow-left:hover {
+    border-right: 1em solid rgba(255, 255, 255, 0.8);
+}
+
+.arrow-left:active {
+    border-right: 1em solid rgba(255, 255, 255, 1);
+}
+
+.slide-right {
+    right: 0;
+}
+
+.arrow-right {
+	border-top: 1em solid transparent;
+	border-bottom: 1em solid transparent;
+	border-left: 1em solid rgba(255, 255, 255, 0.6);
+}
+
+.arrow-right:hover {
+    border-left: 1em solid rgba(255, 255, 255, 0.8);
+}
+
+.arrow-right:active {
+    border-left: 1em solid rgba(255, 255, 255, 1);
+}
